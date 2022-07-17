@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/mainhome.css';
 import { Row, Col, Container } from 'react-bootstrap';
-import services from '../assets/logo.png';
+import services from '../assets/logo192.png';
 
 
 const MainHome = () => {
