@@ -2,7 +2,7 @@
     background-color: rgb(0, 0, 0);
     height: 30vh;
     color: white;
-    padding-top: 20px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -11,5 +11,62 @@
 }
 
 .main p {
-    padding-top: 15px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-align: left;
+margin-left: 45px;
+color: #FFFFFF;
+}
+
+.img-web-dev {
+    margin-top: 15px;
+    position: absolute;
+width: 123.6px;
+height: 124.32px;
+left: 32px;
+
+transform: rotate(-90deg);
+}
+
+.img-game-dev {
+    margin-top: 15px;
+    position: absolute;
+width: 123.6px;
+height: 124.32px;
+left: 436px;
+
+transform: rotate(-90deg);
+}
+
+.img-3d-dev {
+    margin-top: 15px;
+    position: absolute;
+width: 123.6px;
+height: 124.32px;
+left: 863px;
+
+transform: rotate(-90deg);
+}
+
+.main h1 {
+    margin-left: 45px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    text-decoration-line: underline;
+    text-align: left;
+    
+    color: rgba(109, 235, 181, 0.8);
+}
+
+.coll2 {
+    margin-left: 130px;
+}
+
+.coll3 {
+    margin-left: 155px;
 }
