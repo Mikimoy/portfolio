@@ -1,5 +1,21 @@
-img {
+.Hero {
     width: 100%;
-    height: 80vh;
+    height: 95vh;
     background-size: cover;
+    background-image: url(../assets/spiderman.jpg);
+}
+
+
+
+ .tittle {
+    padding-top: 14%;
+}
+
+.tittle h1 {
+    color: white;
+    padding-top: 15px;
+    font-family: Playfair Display;
+}
+.tittle p{
+    color: white;
 }
