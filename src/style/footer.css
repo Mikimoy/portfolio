@@ -1,0 +1,40 @@
+footer {
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+    height: 50vh;
+ 
+}
+
+.col-auto {
+    padding-top: 70px;
+}
+
+.col-auto img {
+    width: 50px;
+    height: 50px;
+}
+
+.col-auto i{
+    margin-left: 20px;
+}
+
+.col-auto p{
+    text-align: center;
+}
+
+.col-auto .p2{
+    text-align: right;
+}
+
+.about {
+    padding-top: 20px;
+    font-family: monospace;
+}
+
+.as2 {
+    text-align: right;
+}
+
+
