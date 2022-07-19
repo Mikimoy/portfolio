@@ -1,0 +1,71 @@
+/*---------------------   Main Home   --------------------*/
+
+/*   Desktop   */
+@media screen and (max-width: 1920px) {
+    .main {
+        background-color: rgb(0, 0, 0);
+        height: 220px;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .main img {
+        width: 130px;
+        float: left;
+        transform: rotate(-90deg);
+    }
+
+}
+
+/*   Laptop   */
+@media screen and (max-width: 1400px) {
+    .main {
+        background-color: rgb(0, 0, 0);
+        height: 230px;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+}
+
+/*   Ipad   */
+@media screen and (max-width: 1200px) {
+    .main {
+        background-color: rgb(0, 0, 0);
+        height: 340px;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+}
+
+/*   Ipad Mini   */
+@media screen and (max-width: 991px) {
+    .main {
+        background-color: rgb(0, 0, 0);
+        height: 490px;
+        padding-top: 40px;
+        text-align: center;
+    }    
+}
+
+/*   Mobile   */
+@media screen and (max-width: 600px) {
+    .main {
+        background-color: rgb(0, 0, 0);
+        height: 950px;
+        padding-top: 50px;
+        text-align: center;
+    }    
+
+    .main img {
+        float: none;
+    }
+
+    button {
+        float: left;
+    }
+}
+
+
+/*---------------------   End Main Home   --------------------*/
