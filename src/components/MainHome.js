@@ -2,47 +2,44 @@ import React from 'react'
 import '../style/mainhome.css';
 import { Row, Col, Container } from 'react-bootstrap';
 import services from '../assets/logo192.png';
+import '../style/responsive.css';
 
 
 const MainHome = () => {
   return (
     <div className="main">
     <Container>
-      <Row md={4}>
-      <Col sm className='coll1'>
-      <div>
-        <img src={ services } alt='logo' className='img-web-dev'/>
-        </div>
-        <div>
-        <h1>Web Developer</h1>
-        </div>
-        <div>
-        <p>"Neque porro quisquam est qui dolorem ipsum<br/>quia dolor sit amet, consectetur, adipisci velit..."</p>
-        </div>
+      <Row>
+        <Col sm>
+          <div className='img-dev'>
+            <img src={ services } alt='logo'/>
+          </div>
+          <div className='dev-text'>
+            <h1>Web Developer</h1>
+            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            </p>
+            <button type="button">Read More ...</button>
+          </div>
         </Col>
-        <Col sm className='coll2'>
-        <div>
-        <img src={ services } alt='logo' className='img-game-dev'/>
-        </div>
-        <div>
-        <h1>Game Developer</h1>
-        </div>
-        <div>
-        <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-        </div>
+        <Col sm>
+          <img src={ services } alt='logo'/>
+          <div className='game-text'>
+            <h1>Game Developer</h1>
+            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            </p>
+            <button type="button">Read More ...</button>
+          </div>
         </Col>
-        <Col sm className='coll3'>
-        <div>
-        <img src={ services } alt='logo' className='img-3d-dev'/>
-        </div>
-        <div>
-        <h1>3D Artist</h1>
-        </div>
-        <div>
-        <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-        </div>
+        <Col sm>
+          <img src={ services } alt='logo'/>
+          <div className='art-text'>
+            <h1>3D Artist</h1>
+            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            </p>
+            <button type="button">Read More ...</button>
+          </div>
         </Col>
-        </Row>
+      </Row>
     </Container>
     </div>
   )
