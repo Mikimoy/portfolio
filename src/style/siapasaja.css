@@ -1,0 +1,16 @@
+.conten {
+    padding: 50px;
+}
+
+.conten h1 {
+    text-align: center;
+}
+
+.col-1-image {
+    background-color: black;
+}
+
+.col-1-siapasaja img {
+    width: 100px;
+    float: left;
+}
