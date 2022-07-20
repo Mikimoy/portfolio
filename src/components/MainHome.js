@@ -18,7 +18,6 @@ const MainHome = () => {
             <h1>Web Developer</h1>
             <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
             </p>
-            <button type="button">Read More ...</button>
           </div>
         </Col>
         <Col sm>
@@ -27,7 +26,6 @@ const MainHome = () => {
             <h1>Game Developer</h1>
             <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
             </p>
-            <button type="button">Read More ...</button>
           </div>
         </Col>
         <Col sm>
@@ -36,7 +34,6 @@ const MainHome = () => {
             <h1>3D Artist</h1>
             <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
             </p>
-            <button type="button">Read More ...</button>
           </div>
         </Col>
       </Row>
