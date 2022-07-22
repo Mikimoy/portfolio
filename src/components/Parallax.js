@@ -1,17 +1,19 @@
 import { Parallax } from 'react-parallax';
 import Nasa from '../assets/nasa.jpg'
-import '../style/Parallax.css';
-
-import { Row, Col, Container } from 'react-bootstrap';
 import foto from '../assets/logo192.png';
+import '../style/Parallax.css';
+import "aos/dist/aos.css";
+import { Row, Col, Container } from 'react-bootstrap';
+
 
 const ImageOne = () => (
-    <Parallax className='image ' blur={0} bgImage={Nasa}  strength={800} bgImageStyle={{minHeight:"120vh" }}>
+    <Parallax className='image ' blur={0} bgImage={Nasa}  strength={800} bgImageStyle={{minHeight:"120vh" }} >
       <div >
-         <Container className='Card'>
+         <Container className='Card'  data-aos="fade-right" id='features'>
          <Row>
         <Col sm className='ada'>
-          <h2>Our Service</h2>
+          <h1>Our Service</h1>
+          <img src={foto} ></img>
           <hr></hr>
         </Col>
         <Col sm className='ada'>  <i class="fa-solid fa-browser" ></i><h5>Web Developer</h5>
