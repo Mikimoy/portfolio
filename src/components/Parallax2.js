@@ -1,38 +1,71 @@
 import { Parallax } from 'react-parallax';
 import '../style/parallax2.css';
 import testgif from '../assets/test.gif';
-
-import { Container } from 'react-bootstrap';
+import "aos/dist/aos.css";
+import { Container,Row ,Col } from 'react-bootstrap';
 
 const ImageTwo = () => (
   <div className='body-parallax2'>
-    <Parallax className='image' blur={0} bgImage={ testgif } strength={100} bgImageStyle={{maxHeight:"100vh" }}>
+    <Parallax className='parallax2' blur={0} bgImage={ testgif } strength={700} bgImageStyle={{maxHeight:"111vh"}}>
         <div className='text-parallax2'>
+        <div data-aos="zoom-in-up">
+          <h1>How It Works</h1>
+        </div>
         <Container>
-        <div className='text-1'>
-        <h1>How It Works</h1>
-            <div className='icon-text'>
-            <i className="fa-duotone fa-building-flag"></i>
-          <h1>Brain</h1>
-            </div>
-          <p>When You Have A Bussines With Our Company, You Will Take A Website With All You Want As You Request And We Will Give You Free Ads In Our Social Media</p>
-          </div>
+          <Row>
+            <div className="item-1-parallax2" data-aos="zoom-in-left">
+              <Col sm={2} className='col-1-parallax2'>
+                <div className="icon-parallax2">
+                  <i class="fa-thin fa-head-side-brain"></i>
+                </div>
+              </Col>
 
-          <div className='text-2'>
-            <div className='icon-text'>
-            <i className="fa-duotone fa-building-flag"></i>
-          <h1>Brain</h1>
+              <Col sm={7} className='col-2-parallax2'>
+              <h1>blabla</h1>
+                <p>Lorem Ipsum Mentog Meja Sakit Kepala Akhirnya Di Cium Ema Ema Gara GAra Sudah Gila Maka Dia PErgi Ke Pasar Untuk Membeli Sawah Yang Berada Di Laut</p>
+              </Col>
             </div>
-          <p>When You Have A Bussines With Our Company, You Will Take A Website With All You Want As You Request And We Will Give You Free Ads In Our Social Media</p>
-          </div>
+            
+            
+            <div className="item-2-parallax2" data-aos="zoom-in-right">
+              <Col sm={2} className='col-1-parallax2'>
+                <div className="icon-parallax2">
+                  <i class="fa-thin fa-head-side-brain"></i>
+                </div>
+              </Col>
 
-          <div className='text-3'>
-            <div className='icon-text'>
-            <i className="fa-duotone fa-building-flag"></i>
-          <h1>Brain</h1>
+              <Col sm={7} className='col-2-parallax2'>
+              <h1>blabla</h1>
+                <p>Lorem Ipsum Mentog Meja Sakit Kepala Akhirnya Di Cium Ema Ema Gara GAra Sudah Gila Maka Dia PErgi Ke Pasar Untuk Membeli Sawah Yang Berada Di Laut</p>
+              </Col>
             </div>
-          <p>When You Have A Bussines With Our Company, You Will Take A Website With All You Want As You Request And We Will Give You Free Ads In Our Social Media</p>
-          </div>
+
+            <div className="item-3-parallax2" data-aos="zoom-in-left">
+              <Col sm={2} className='col-1-parallax2'>
+                <div className="icon-parallax2">
+                  <i class="fa-thin fa-head-side-brain"></i>
+                </div>
+              </Col>
+
+              <Col sm={7} className='col-2-parallax2'>
+              <h1>blabla</h1>
+                <p>Lorem Ipsum Mentog Meja Sakit Kepala Akhirnya Di Cium Ema Ema Gara GAra Sudah Gila Maka Dia PErgi Ke Pasar Untuk Membeli Sawah Yang Berada Di Laut</p>
+              </Col>
+            </div>
+
+            <div className="item-4-parallax2" data-aos="zoom-in-right">
+              <Col sm={2} className='col-1-parallax2'>
+                <div className="icon-parallax2">
+                  <i class="fa-thin fa-head-side-brain"></i>
+                </div>
+              </Col>
+
+              <Col sm={7} className='col-2-parallax2'>
+              <h1>blabla</h1>
+                <p>Lorem Ipsum Mentog Meja Sakit Kepala Akhirnya Di Cium Ema Ema Gara GAra Sudah Gila Maka Dia PErgi Ke Pasar Untuk Membeli Sawah Yang Berada Di Laut</p>
+              </Col>
+            </div>
+          </Row>
         </Container>
     </div>
     </Parallax>
