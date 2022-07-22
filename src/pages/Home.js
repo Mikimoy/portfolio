@@ -7,6 +7,7 @@ import SiapaSaja from '../components/SiapaSaja';
 import ImageOne from '../components/Parallax';
 import ImageTwo from '../components/Parallax2';
 import Footer from  '../components/Footer';
+import Portofolio from '../components/Portofolio';
 
 const Home = () => {
   return (
@@ -17,10 +18,15 @@ const Home = () => {
             <section>
             <ImageOne/>
             </section>
-            <MainHome />
-            <ImageTwo/>
             <AboutUs />
+            <ImageTwo/>
+            
             <SiapaSaja />
+            <section>
+            <Portofolio />
+            <Portofolio />
+            <Portofolio />
+            </section>
             <Footer/>
     </div>
   )
