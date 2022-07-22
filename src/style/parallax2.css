@@ -1,0 +1,35 @@
+.body-parallax2 {
+    background-color: rgb(0, 0, 0);
+    height: 120vh;
+}
+
+.text-parallax2 {
+    font-family: 'Space Mono', monospace;
+    color: #ffd1d1;
+    font-size: 1.3rem;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 620px;
+}
+
+.text-prallax2 p {
+    font-size: 1rem;
+}
+
+.fa-building-flag {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.text-1, .text-3 {
+    text-align: left; 
+}
+
+.text-2 {
+    text-align: right;
+}
+
+.icon-text {
+    display: inline-flex;
+}
