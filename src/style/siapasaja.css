@@ -1,16 +1,35 @@
-.conten {
+.wnu {
     padding: 50px;
 }
 
-.conten h1 {
+.wnu h1 {
     text-align: center;
 }
 
-.col-1-image {
-    background-color: black;
+.conten-wnu {
+    margin-top: 50px;
 }
 
-.col-1-siapasaja img {
-    width: 100px;
+.card-body {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon-wnu {
+    display: flex;
+    font-size: 25px;
     float: left;
+    background-color: aqua;
+    border-radius: 1000px;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -5px -5px 8px 3px inset;
+}
+
+.card-text {
+    margin-left: 15px;
+    font-weight: bolder;
 }
