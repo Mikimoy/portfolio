@@ -5,18 +5,19 @@ import foto from '../assets/logo192.png';
 
 const SiapaSaja = () => {
   return (
-    <div className='conten'>
-        <h1>Siapa Saja Client</h1>
+    <div className='wnu'>
+        <h1>Who Need Us ?</h1>
+        <div className="conten-wnu">
         <Container>
         <Row>
-
             <Col sm className='col-1-siapasaja'>
                 <Card className="text-center">
                     <Card.Body>
-                        <img src= { foto } alt="foto" className='col-1-image'/>
-                        <Card.Title>Special</Card.Title>
+                        <div className="icon-wnu">
+                            <i class="fa-solid fa-alicorn"></i>
+                        </div>
                         <Card.Text>
-                            With supporting text below
+                            User Internet
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -25,10 +26,11 @@ const SiapaSaja = () => {
             <Col sm className='col-1-siapasaja'>
             <Card className="text-center">
                 <Card.Body>
-                    <img src= { foto } alt="foto" className='col-1-image'/>
-                    <Card.Title>Special</Card.Title>
+                    <div className="icon-wnu">
+                        <i class="fa-solid fa-store"></i>                    
+                    </div>                    
                     <Card.Text>
-                        With supporting text below
+                        Marketplace
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -37,10 +39,11 @@ const SiapaSaja = () => {
             <Col sm className='col-1-siapasaja'>
                 <Card className="text-center">
                     <Card.Body>
-                        <img src= { foto } alt="foto" className='col-1-image'/>
-                        <Card.Title>Special</Card.Title>
+                        <div className="icon-wnu">
+                            <i class="fa-solid fa-people-group"></i>                        
+                        </div>                        
                         <Card.Text>
-                            With supporting text below
+                            Team Youtube
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -49,10 +52,11 @@ const SiapaSaja = () => {
             <Col sm className='col-1-siapasaja'>
                 <Card className="text-center">
                     <Card.Body>
-                        <img src= { foto } alt="foto" className='col-1-image'/>
-                        <Card.Title>Special</Card.Title>
+                        <div className="icon-wnu">
+                            <i class="fa-solid fa-building"></i>                        
+                        </div>
                         <Card.Text>
-                            With supporting text below
+                            Any Company
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -60,6 +64,7 @@ const SiapaSaja = () => {
 
         </Row>
     </Container>
+    </div>
   </div>
   )
 }
