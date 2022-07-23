@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import '../style/aboutus.css';
@@ -19,7 +20,7 @@ const AboutUs = () => {
         <div className='text'>
         <h1> About Us</h1>
         <p>
-        Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Lorem ipsum dolor sit,consectetur adipiscing elit. Sed porttitor lectus nibh.<br/>consectetur adipiscing elit accumsan.
+        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
         </p>
         </div>
       </Col>
