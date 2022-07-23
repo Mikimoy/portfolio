@@ -1,7 +1,7 @@
 .body-parallax2 {
     height: 126.4vh;
     background-color: black;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .text-parallax2 {
@@ -11,6 +11,16 @@
     font-size: 14px;
     width: 800px;
     height: 800px;
+}
+
+.judul-parallax2 {
+    text-align: center;
+    width: 420px;   
+    font-weight: bolder;
+}
+
+.row {
+    margin-top: 80px;
 }
 
 .text-parallax2 h1 {
@@ -46,7 +56,7 @@
     float: left;
 }
 
-.fa-head-side-brain {
+.fa-head-side-brain, .fa-book-open-cover, .fa-lightbulb-on, .fa-code-simple {
     font-size: 40px;
 }
 
