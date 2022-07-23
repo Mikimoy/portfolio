@@ -1,61 +1,169 @@
-.main {
-    background-color: rgb(0, 0, 0);
-    height: 30vh;
-    padding-top: 40px;
-    text-align: center;
-}
+  .mainhone-items {
+      background-color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 20px 0;
+  }
 
-.web {
-    font-size: 1rem;
-}
+  .row {
+    margin-bottom: 40px;margin-top: 100px;
+  }
 
-.main p {
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: left;
-    color: #FFFFFF;
-}
+  .web {
+      font-size: 1rem;
+  }
 
-.main img {
-    width: 25%;
-    float: left;
-    transform: rotate(-90deg);
-}
+  .mainhone-items p {
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: left;
+      color: #FFFFFF;
+  }
 
-.dev-text, .game-text, .art-text {
-    margin: 0 120px;
-    width: 70%;
-}
+  .mainhone-items img {
+      width: 23vh;
+      transform: rotate(-90deg);
+      float: left;
+  }
 
-.dev-text h1 {
-    text-align: left;
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 44px;
-    text-decoration-line: underline;
-    color: rgba(109, 235, 181, 0.8);
-}
+  .dev-text, .game-text, .art-text {
+      margin: 0 120px;
+      width: 70%;
+  }
 
-.game-text h1 {
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 44px;
-    text-decoration-line: underline;
-    text-align: left;
-    color: rgba(109, 235, 181, 0.8);
-}
+  .dev-text h1 {
+      text-align: left;
+      font-family: 'Space Mono', monospace;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 44px;
+      text-decoration-line: underline;
+      color: rgba(109, 235, 181, 0.8);
+  }
 
-.art-text h1 {
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 44px;
-    text-decoration-line: underline;
-    text-align: left;
-    color: rgba(109, 235, 181, 0.8);
-}
+  .game-text h1 {
+      font-family: 'Space Mono', monospace;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 44px;
+      text-decoration-line: underline;
+      text-align: left;
+      color: rgba(109, 235, 181, 0.8);
+  }
+
+  .art-text h1 {
+      font-family: 'Space Mono', monospace;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 44px;
+      text-decoration-line: underline;
+      text-align: left;
+      color: rgba(109, 235, 181, 0.8);
+  }
+
+  /* Button */
+  .button-mainhome a {
+      position: relative;
+      padding: 10px 20px;
+      color: #03e9f4;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: .5s;
+      letter-spacing: 4px;
+      float: left;
+    }
+    
+    
+    .button-mainhome a:hover {
+      background: #03e9f4;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+    }
+    
+    .button-mainhome a span {
+      position: absolute;
+      display: block;
+    }
+    
+    .button-mainhome a span:nth-child(1) {
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #03e9f4);
+      animation: btn-anim1 1s linear infinite;
+    }
+    
+    @keyframes btn-anim1 {
+      0% {
+        left: -100%;
+      }
+      50%,100% {
+        left: 100%;
+      }
+    }
+    
+    .button-mainhome a span:nth-child(2) {
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg, transparent, #03e9f4);
+      animation: btn-anim2 1s linear infinite;
+      animation-delay: .25s
+    }
+    
+    @keyframes btn-anim2 {
+      0% {
+        top: -100%;
+      }
+      50%,100% {
+        top: 100%;
+      }
+    }
+    
+    .button-mainhome a span:nth-child(3) {
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg, transparent, #03e9f4);
+      animation: btn-anim3 1s linear infinite;
+      animation-delay: .5s
+    }
+    
+    @keyframes btn-anim3 {
+      0% {
+        right: -100%;
+      }
+      50%,100% {
+        right: 100%;
+      }
+    }
+    
+    .button-mainhome a span:nth-child(4) {
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg, transparent, #03e9f4);
+      animation: btn-anim4 1s linear infinite;
+      animation-delay: .75s
+    }
+    
+    @keyframes btn-anim4 {
+      0% {
+        bottom: -100%;
+      }
+      50%,100% {
+        bottom: 100%;
+      }
+    }
